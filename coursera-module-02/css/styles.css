@@ -24,8 +24,8 @@ div.container {
 
 p.title {
   position: relative;
-  left: 72%;
-  width: 28%;
+  left: 78%;
+  width: 22%;
   text-align: center;
   border: 1px solid black;
   margin: 0px 0px 0px 0px;
@@ -205,6 +205,11 @@ p.text {
 
   p.text {
     min-height: 110px;
+  }
+
+  div.col-sm-12 p.title {
+    left: 55%;
+    width: 45%;
   }
 
 }
