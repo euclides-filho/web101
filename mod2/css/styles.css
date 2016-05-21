@@ -34,9 +34,9 @@ p.title {
 p.text {
     position: relative;
     background-color: lightgray;
-    margin: 5px 5px 5px 5px;
-    padding: 5px 5px 5px 5px;
-    min-height: 200px;
+    margin: 5px 5px 15px 5px;
+    padding: 5px 5px 15px 5px;
+    
 }
 
 #chicken {
