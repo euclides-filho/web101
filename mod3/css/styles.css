@@ -1,0 +1,17 @@
+.navbar-nav li {
+	background-color: lightgray;
+}
+
+#section-01 {
+	padding: 15px;
+	background-color: lightgray;
+}
+
+#title {
+	font-size: 1.8em;
+	font-weight: bold;
+}
+
+#content .navbar-fixed-top{
+  position: relative;
+}
