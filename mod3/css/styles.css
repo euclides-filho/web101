@@ -1,17 +1,38 @@
 .navbar-nav li {
-	background-color: lightgray;
+	background-color: #F8F8F8;
 	font-size: 1.2em;
 	font-weight: bold;
 }
 
-#section-01 {
-	padding: 15px;
-	background-color: lightgray;
+.inner-container{
+	margin: 10px;
+	padding: 10px;
+	background-color: #E8E8E8;
+	min-height: 600px;
+	max-height: none;
 }
 
-#title {
+.section {
+	margin: 0;
+	padding: 0px;
+}
+
+.title {
 	font-size: 1.8em;
 	font-weight: bold;
+}
+
+.foot-link{
+	position: absolute;
+	bottom: -10px;
+	right: 0;
+	margin: 20px 10px 10px 10px;
+	padding: 20px 10px 10px 10px;
+	font-size: 0.7em;
+}
+
+.text{
+	margin-bottom: 20px;
 }
 
 div h1 {
@@ -21,4 +42,10 @@ div h1 {
 div .row{
 	margin: 0px 10px 15px 10px;
 	padding: 0px 10px 15px 10px;
+}
+
+@media (max-width: 350px){
+	.text{
+		margin-bottom: 40px;
+	}
 }
