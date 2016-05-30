@@ -7,15 +7,18 @@
 #section-01 {
 	padding: 15px;
 	background-color: lightgray;
-	
 }
 
 #title {
-	
 	font-size: 1.8em;
 	font-weight: bold;
 }
 
 div h1 {
 	margin-top: 0px;
+}
+
+div .row{
+	margin: 0px 10px 15px 10px;
+	padding: 0px 10px 15px 10px;
 }
