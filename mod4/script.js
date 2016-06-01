@@ -63,10 +63,10 @@ WARNING!!! WARNING!!!
       // in the loop. Otherwise, call helloSpeaker's 'speak' method with the current
       // name in the loop.
       if (firstLetter == "j") {
-        window.SpeakGoodBye(names[i]);
+        window.byeSpeaker.speak(names[i]);
         // byeSpeaker.xxxx
       } else {
-        window.SpeakHello(names[i]);
+        window.helloSpeaker.speak(names[i]);
         // helloSpeaker.xxxx
       }
     }
